@@ -1,0 +1,18 @@
+{
+  "name": "nhaxe-due",
+  "version": "1.0.0",
+  "description": "Ứng dụng web quản lý nhà xe DUE bám mô hình BPMN To-Be (MIS3047, Nhóm 4)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/api.test.js",
+    "selftest": "node scripts/selftest.js",
+    "selftest:mini": "node scripts/selftest-mini.js",
+    "build:static": "node scripts/build-static.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
