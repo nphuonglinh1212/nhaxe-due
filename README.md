@@ -101,7 +101,6 @@ GitHub Pages chạy được **bản trình duyệt** (`static-site/`, cách A).
 * Mã VietQR chỉ hiện khi nhập tài khoản ngân hàng ở Thông số; trong demo dùng nút giả lập ngân hàng.
 * Ngưỡng 0,95, 3 lần thử, hạn QR 3 phút, nhắc đỗ sau 3 phút là thông số thiết kế chưa kiểm chứng thực tế.
 * Báo mất thẻ bị từ chối: thẻ cũ vẫn khóa (giả định của nhóm).
-* Mô hình To-Be ghi tài khoản mới nhận "90 lượt"; theo yêu cầu của nhóm, phần mềm dùng vé tháng và vé 100 lượt thay cho cách đó.
 * Số điện thoại, email và giờ mở cửa là **thông tin giả lập cho demo**. Tài khoản nhận tiền mặc định: 0000000000, NHA XE DUE DEMO; **mã ngân hàng (BIN) mặc định 970422 chỉ là giả định**, hãy đổi đúng ngân hàng trong `admin` → Thông số thì mã VietQR mới đúng.
 
 ## Cấu trúc
