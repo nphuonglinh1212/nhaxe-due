@@ -1,4 +1,4 @@
-# Nhà xe DUE – phần mềm web bám mô hình BPMN To-Be
+# Nhà xe DUE – phần mềm web bám theo mô hình BPMN To-Be
 
 Học phần MIS3047 – Quản lý quy trình kinh doanh · Nhóm 4 · Lớp 50K21.1
 
@@ -6,7 +6,7 @@ Phần mềm hỗ trợ trực tiếp quy trình **quản lý gửi xe tại nh�
 
 ## Hai cách chạy (cùng một bộ quy tắc To-Be)
 
-**A. Bản chạy hoàn toàn trong trình duyệt (khuyên dùng để nộp và quay demo)** – thư mục `static-site/`, không cần Node, không cần máy chủ.
+**A. Bản chạy hoàn toàn trong trình duyệt** – thư mục `static-site/`, không cần Node, không cần máy chủ.
 
 * Mở `static-site/index.html` bằng Chrome/Edge (hoặc đưa cả thư mục lên GitHub Pages: Settings → Pages → chọn nhánh, thư mục chứa các file này). Đường dẫn đều là tương đối nên chạy được cả khi đặt trong thư mục con.
 * Dữ liệu lưu trong `localStorage` của chính trình duyệt đó; các tab cùng trình duyệt tự đồng bộ. Mở mỗi vai trò ở một tab riêng (phiên đăng nhập theo từng tab) để quay demo. Xóa dữ liệu trình duyệt hoặc nút "Khôi phục dữ liệu mẫu" của `admin` sẽ đưa về ban đầu.
